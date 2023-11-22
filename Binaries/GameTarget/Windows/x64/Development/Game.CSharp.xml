@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game.CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:Game.ComingSoon">
+            <summary>
+            ComingSoon Script.
+            </summary>
+        </member>
+        <member name="T:Game.PlayerScript">
+            <summary>
+            PlayerScript Script.
+            </summary>
+        </member>
+        <member name="M:Game.PlayerScript.OnUpdate">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

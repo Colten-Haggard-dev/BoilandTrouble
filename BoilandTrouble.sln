@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31314.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Source\Game.csproj", "{38E51197-80AD-4BE9-9699-C90A66A597C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildScripts", "Cache\Projects\BuildScripts.csproj", "{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Editor.Debug|Win64 = Editor.Debug|Win64
+		Editor.Development|Win64 = Editor.Development|Win64
+		Editor.Release|Win64 = Editor.Release|Win64
+		Game.Debug|Win64 = Game.Debug|Win64
+		Game.Development|Win64 = Game.Development|Win64
+		Game.Release|Win64 = Game.Release|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Editor.Debug|Win64.ActiveCfg = Editor.Windows.Debug|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Editor.Debug|Win64.Build.0 = Editor.Windows.Debug|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Editor.Development|Win64.ActiveCfg = Editor.Windows.Development|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Editor.Development|Win64.Build.0 = Editor.Windows.Development|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Editor.Release|Win64.ActiveCfg = Editor.Windows.Release|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Editor.Release|Win64.Build.0 = Editor.Windows.Release|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Game.Debug|Win64.ActiveCfg = Game.Windows.Debug|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Game.Debug|Win64.Build.0 = Game.Windows.Debug|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Game.Development|Win64.ActiveCfg = Game.Windows.Development|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Game.Development|Win64.Build.0 = Game.Windows.Development|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Game.Release|Win64.ActiveCfg = Game.Windows.Release|x64
+		{38E51197-80AD-4BE9-9699-C90A66A597C8}.Game.Release|Win64.Build.0 = Game.Windows.Release|x64
+		{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}.Editor.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}.Editor.Development|Win64.ActiveCfg = Debug|Any CPU
+		{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}.Editor.Release|Win64.ActiveCfg = Debug|Any CPU
+		{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}.Game.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}.Game.Development|Win64.ActiveCfg = Debug|Any CPU
+		{FA9C8D53-A2B4-46AF-82E2-8F62B07F5700}.Game.Release|Win64.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EE69A66-8474-46EE-9C0B-6B61C75A167C}
+	EndGlobalSection
+EndGlobal

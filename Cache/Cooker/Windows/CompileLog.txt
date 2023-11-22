@@ -1,0 +1,120 @@
+[00:00:006] Flax.Build 1.0.0
+[00:00:007]   Arguments: -log "-logfile=C:\Users/Colten/Documents/Flax Projects/BoilandTrouble/Cache/Cooker/Windows/CompileLog.txt" -build -mutex -buildtargets=GameTarget -platform=Windows -arch=x64 -configuration=Release -aotMode=None
+[00:00:007]   Workspace: C:\Users\Colten\Documents\Flax Projects\BoilandTrouble
+[00:00:007]   Engine: C:\Program Files (x86)\Flax\Flax_1.7
+[00:00:007]   .NET 7.0.9
+[00:00:011] Loading project file from "C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.flaxproj"...
+[00:00:033] Loading project file from "C:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
+[00:00:034] Loaded project Flax, version 1.7.6404
+[00:00:034] Loaded project BoilandTrouble, version 1.0
+[00:00:051] Engine build version: 1.7.6404
+[00:00:068] Building targets...
+[00:00:086] Found Android SDK at C:\Users\Colten\AppData\Local\Android\Sdk
+[00:00:087] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:00:092] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:092] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:092] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:101] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:00:101] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
+[00:00:102] Found Windows toolset v143 at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532
+[00:00:102] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133
+[00:00:104] Building C# only
+[00:00:104] Building target GameTarget in Release for Windows x64
+[00:00:113] Building referenced target Flax
+[00:00:120] Parsing API bindings for Platform (FlaxEngine)
+[00:00:209] Parsing API bindings for Core (FlaxEngine)
+[00:00:758] Parsing API bindings for Physics (FlaxEngine)
+[00:00:830] Parsing API bindings for TextureTool (FlaxEngine)
+[00:00:839] Parsing API bindings for ModelTool (FlaxEngine)
+[00:00:848] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:00:848] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:00:849] Parsing API bindings for Graphics (FlaxEngine)
+[00:01:044] Parsing API bindings for Utilities (FlaxEngine)
+[00:01:046] Parsing API bindings for Particles (FlaxEngine)
+[00:01:057] Parsing API bindings for Content (FlaxEngine)
+[00:01:100] Parsing API bindings for Renderer (FlaxEngine)
+[00:01:116] Using .NET SDK 7.0.306, runtime 7.0.9 (C:\Program Files\dotnet\)
+[00:01:116]   - Host Runtime for Windows x64
+[00:01:116]   - Host Runtime for Windows x86
+[00:01:116]   - Host Runtime for Windows ARM64
+[00:01:117] Parsing API bindings for Scripting (FlaxEngine)
+[00:01:132] Parsing API bindings for Serialization (FlaxEngine)
+[00:01:134] Parsing API bindings for Level (FlaxEngine)
+[00:01:244] Parsing API bindings for Navigation (FlaxEngine)
+[00:01:253] Parsing API bindings for AI (FlaxEngine)
+[00:01:265] Parsing API bindings for Visject (FlaxEngine)
+[00:01:272] Parsing API bindings for Animations (FlaxEngine)
+[00:01:297] Parsing API bindings for Audio (FlaxEngine)
+[00:01:332] Parsing API bindings for Debug (FlaxEngine)
+[00:01:372] Parsing API bindings for Foliage (FlaxEngine)
+[00:01:390] Parsing API bindings for Render2D (FlaxEngine)
+[00:01:425] Parsing API bindings for Input (FlaxEngine)
+[00:01:442] Parsing API bindings for Networking (FlaxEngine)
+[00:01:468] Parsing API bindings for Streaming (FlaxEngine)
+[00:01:470] Parsing API bindings for Terrain (FlaxEngine)
+[00:01:474] Parsing API bindings for Threading (FlaxEngine)
+[00:01:477] Parsing API bindings for Localization (FlaxEngine)
+[00:01:481] Parsing API bindings for UI (FlaxEngine)
+[00:01:487] Parsing API bindings for Online (FlaxEngine)
+[00:01:492] Parsing API bindings for Engine (FlaxEngine)
+[00:01:500] Building module Platform
+[00:01:501] Building module fmt
+[00:01:501] Building module Core
+[00:01:501] Building module Main
+[00:01:501] Building module PhysX
+[00:01:501] Building module NvCloth
+[00:01:501] Building module Physics
+[00:01:501] Building module lz4
+[00:01:501] Building module minimp3
+[00:01:501] Building module ogg
+[00:01:501] Building module vorbis
+[00:01:501] Building module AudioTool
+[00:01:501] Building module DirectXTex
+[00:01:501] Building module TextureTool
+[00:01:501] Building module ModelTool
+[00:01:501] Building module GraphicsDeviceNull
+[00:01:501] Building module GraphicsDeviceDX11
+[00:01:501] Building module GraphicsDeviceDX12
+[00:01:501] Building module Graphics
+[00:01:501] Building module Utilities
+[00:01:501] Building module Particles
+[00:01:501] Building module Content
+[00:01:501] Building module Renderer
+[00:01:501] Building module nethost
+[00:01:501] Building module Scripting
+[00:01:501] Building module rapidjson
+[00:01:501] Building module Serialization
+[00:01:501] Building module Level
+[00:01:501] Building module recastnavigation
+[00:01:502] Building module Navigation
+[00:01:502] Building module AI
+[00:01:502] Building module Visject
+[00:01:502] Building module Animations
+[00:01:502] Building module Audio
+[00:01:502] Building module Debug
+[00:01:502] Building module Foliage
+[00:01:502] Building module freetype
+[00:01:502] Building module Render2D
+[00:01:502] Building module Input
+[00:01:502] Building module Networking
+[00:01:502] Building module Streaming
+[00:01:502] Building module Terrain
+[00:01:502] Building module Threading
+[00:01:502] Building module Localization
+[00:01:502] Building module UI
+[00:01:502] Building module Online
+[00:01:502] Building module Engine
+[00:01:503] Skipping build for target FlaxGame
+[00:01:510] Generating binary module bindings for Game
+[00:01:512] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.Gen.cs
+[00:01:512] Building module Game
+[00:01:515] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache/Intermediate\GameTarget\Windows\x64\Release\Game.CSharp.response
+[00:01:520] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Binaries\GameTarget\Windows\x64\Release\GameTarget.Build.json
+[00:01:523] Found 7 valid and 0 invalid actions in Task Graph cache
+[00:01:523] 
+[00:01:523] Total 3 tasks
+[00:01:523] Executing 1 task using 1 thread
+[00:01:524] Compiling C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Binaries\GameTarget\Windows\x64\Release\Game.CSharp.dll
+[00:01:667] Done!
+[00:01:669] Total time: 00:00:01.6841008
+[00:01:669] End.
