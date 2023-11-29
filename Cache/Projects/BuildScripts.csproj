@@ -20,10 +20,9 @@
     <AssemblyName>BuildScripts.CSharp</AssemblyName>
     <LangVersion>11.0</LangVersion>
     <FileAlignment>512</FileAlignment>
-    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
-    <EnableDynamicLoading>true</EnableDynamicLoading>
-    <OutDir>..\Intermediate\Unused</OutDir>
-    <IntermediateOutputPath>..\..\Cache/Intermediate\BuildScripts\Windows\AnyCPU\Debug\CSharp</IntermediateOutputPath>
+    <CustomAfterMicrosoftCommonTargets>$(MSBuildThisFileDirectory)Flax.Build.CSharp.SkipBuild.targets</CustomAfterMicrosoftCommonTargets>
+    <RestorePackages>false</RestorePackages>
+    <DisableFastUpToDateCheck>True</DisableFastUpToDateCheck>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

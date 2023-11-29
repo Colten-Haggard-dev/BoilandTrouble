@@ -1,7 +1,7 @@
 {
 	"ID": "780f883f4bbe81f8d30c0bbc4031ada0",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6404,
+	"EngineBuild": 6406,
 	"Data": [
 		{
 			"ID": "780f883f4bbe81f8d30c0bbc4031ada0",
@@ -47,16 +47,25 @@
 		"12fc2e6b4ad570599bcf2c8c61c40931",
 		"f74c8f0849691bd085ac40aba6acd060",
 		"af99dea649040df9b6f35ba3e88b1b4e",
-		"11706c3f417eb5d5edb0d4a31de44bbe"
+		"11706c3f417eb5d5edb0d4a31de44bbe",
+		"181e4e234a6eb5e7418a33960f974fc6",
+		"dc347176478c049538c86eaa0ed21e7c"
 	],
-	"ScreenParent": "93eaa8814b5eaf04edef03831b1400f6"
+	"ScreenParent": "93eaa8814b5eaf04edef03831b1400f6",
+	"Actor": "780f883f4bbe81f8d30c0bbc4031ada0",
+	"Parent": "780f883f4bbe81f8d30c0bbc4031ada0",
+	"OrderInParent": 0
 }
 		},
 		{
 			"ID": "af58dfe44312e65ab6d4c78bc26acced",
 			"TypeName": "Game.ExitOnEsc",
 			"ParentID": "780f883f4bbe81f8d30c0bbc4031ada0",
-			"V": {}
+			"V": {
+	"Actor": "780f883f4bbe81f8d30c0bbc4031ada0",
+	"Parent": "780f883f4bbe81f8d30c0bbc4031ada0",
+	"OrderInParent": 1
+}
 		},
 		{
 			"ID": "4284ec9a4840494636ef8e800f1d038d",
@@ -166,7 +175,10 @@
 			"V": {
 	"PlayerController": "e6d981074c2dc244685b47ab773e8bfc",
 	"CameraTarget": "0f7482504e963769ea4ae380ddf897d0",
-	"Cam": "4d4d620c46fb1f831a3be3b43d6fcb41"
+	"Cam": "4d4d620c46fb1f831a3be3b43d6fcb41",
+	"Actor": "e6d981074c2dc244685b47ab773e8bfc",
+	"Parent": "e6d981074c2dc244685b47ab773e8bfc",
+	"OrderInParent": 0
 }
 		},
 		{
@@ -1512,7 +1524,7 @@
 			"ID": "181e4e234a6eb5e7418a33960f974fc6",
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "dc4325cc4d44036a9be499aa26830d65",
-			"Name": "Spacer 9",
+			"Name": "PlanetHealth",
 			"Transform": {
 				"Translation": {
 					"X": 150.0,
@@ -1520,8 +1532,44 @@
 					"Z": 1.7484555314695172e-7
 				}
 			},
-			"Control": "FlaxEngine.GUI.Spacer",
+			"Control": "FlaxEngine.GUI.Label",
 			"Data": {
+	"Text": "Planet Health:\n0",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"BaseLinesGapScale": 1.0,
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 16.0
+	},
+	"Material": null,
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": false,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
 	"ClipChildren": true,
 	"CullChildren": true,
 	"AnchorMin": {
@@ -1563,13 +1611,103 @@
 }
 		},
 		{
+			"ID": "dc347176478c049538c86eaa0ed21e7c",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "dc4325cc4d44036a9be499aa26830d65",
+			"Name": "Pollution",
+			"Transform": {
+				"Translation": {
+					"X": 300.0,
+					"Y": 240.0,
+					"Z": 1.7484555314695172e-7
+				}
+			},
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Pollution:\n0",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"BaseLinesGapScale": 1.0,
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 16.0
+	},
+	"Material": null,
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": false,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 300.0,
+		"Right": 150.0,
+		"Top": 240.0,
+		"Bottom": 80.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
 			"ID": "11706c3f417eb5d5edb0d4a31de44bbe",
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "dc4325cc4d44036a9be499aa26830d65",
 			"Name": "Speed",
 			"Transform": {
 				"Translation": {
-					"X": 300.0,
+					"X": 450.0,
 					"Y": 240.0,
 					"Z": 1.7484555314695172e-7
 				}
@@ -1623,7 +1761,7 @@
 		"Y": 0.5
 	},
 	"Offsets": {
-		"Left": -75.0,
+		"Left": 75.0,
 		"Right": 150.0,
 		"Top": 40.0,
 		"Bottom": 80.0
@@ -1778,7 +1916,7 @@
 			"ID": "27729ef64f80ffbc9aec68ba26dcfb73",
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "b04fdff1448e83a426ec06b36cd8a850",
-			"Name": "UniformGridPanel",
+			"Name": "OrgPanel",
 			"Control": "FlaxEngine.GUI.UniformGridPanel",
 			"Data": {
 	"SlotPadding": {
@@ -4203,7 +4341,7 @@
 			"ID": "5703a16f44310a4c18c47d8b75a92d04",
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "eb09abde4c15ed11c8d099941da8df4f",
-			"Name": "UniformGridPanel",
+			"Name": "SocPanel",
 			"Control": "FlaxEngine.GUI.UniformGridPanel",
 			"Data": {
 	"SlotPadding": {
@@ -6628,7 +6766,7 @@
 			"ID": "1772f79c46d296e44c6fb8b31ef32bac",
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "5972a8c74b693252058ec88815dc6801",
-			"Name": "UniformGridPanel",
+			"Name": "EcoPanel",
 			"Control": "FlaxEngine.GUI.UniformGridPanel",
 			"Data": {
 	"SlotPadding": {
@@ -9053,7 +9191,7 @@
 			"ID": "312af061431ac406f4f22d9942f874fa",
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "273e4fff40df29954c1016bf5319f6d5",
-			"Name": "UniformGridPanel",
+			"Name": "StructPanel",
 			"Control": "FlaxEngine.GUI.UniformGridPanel",
 			"Data": {
 	"SlotPadding": {

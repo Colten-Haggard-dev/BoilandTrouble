@@ -20,10 +20,9 @@
     <AssemblyName>Game.CSharp</AssemblyName>
     <LangVersion>11.0</LangVersion>
     <FileAlignment>512</FileAlignment>
-    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
-    <EnableDynamicLoading>true</EnableDynamicLoading>
-    <OutDir>..\Binaries\GameEditorTarget\Windows\x64\Debug</OutDir>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\CSharp</IntermediateOutputPath>
+    <CustomAfterMicrosoftCommonTargets>$(MSBuildThisFileDirectory)..\Cache\Projects\Flax.Build.CSharp.targets</CustomAfterMicrosoftCommonTargets>
+    <RestorePackages>false</RestorePackages>
+    <DisableFastUpToDateCheck>True</DisableFastUpToDateCheck>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|x64' ">

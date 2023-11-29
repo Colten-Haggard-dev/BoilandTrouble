@@ -1,42 +1,48 @@
 [00:00:007] Flax.Build 1.0.0
-[00:00:008]   Arguments: -log -mutex -genproject
-[00:00:008]   Workspace: C:\Users\Colten\Documents\Flax Projects\BoilandTrouble
-[00:00:008]   Engine: C:\Program Files (x86)\Flax\Flax_1.7
-[00:00:008]   .NET 7.0.9
-[00:00:012] Loading project file from "C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.flaxproj"...
+[00:00:007]   Arguments: -log -mutex -genproject
+[00:00:007]   Workspace: C:\Users\Colten\Documents\Flax Projects\BoilandTrouble
+[00:00:007]   Engine: C:\Program Files (x86)\Flax\Flax_1.7
+[00:00:007]   .NET 7.0.9
+[00:00:011] Loading project file from "C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.flaxproj"...
 [00:00:034] Loading project file from "C:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
-[00:00:035] Loaded project Flax, version 1.7.6404
+[00:00:035] Loaded project Flax, version 1.7.6406.1
 [00:00:035] Loaded project BoilandTrouble, version 1.0
-[00:00:053] Engine build version: 1.7.6404
+[00:00:054] Engine build version: 1.7.6406.1
 [00:00:070] Generating project files...
 [00:00:078] Found Android SDK at C:\Users\Colten\AppData\Local\Android\Sdk
 [00:00:079] Missing Linux Toolchain. Cannot build for Linux platform.
-[00:00:084] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:084] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:084] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:093] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
-[00:00:093] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
+[00:00:083] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:083] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:083] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:092] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:00:092] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
 [00:00:094] Found Windows toolset v143 at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532
 [00:00:094] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133
-[00:00:119] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:00:118] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
 [00:00:119] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
-[00:00:125] Using .NET SDK 7.0.306, runtime 7.0.9 (C:\Program Files\dotnet\)
+[00:00:124] Found the following .NET SDK versions: 7.0.306, 7.0.100, 6.0.302
+[00:00:124] Found the following .NET runtime versions: 7.0.9, 7.0.0, 6.0.20, 6.0.7
+[00:00:126] Using .NET SDK 7.0.306, runtime 7.0.9 (C:\Program Files\dotnet\)
 [00:00:126]   - Host Runtime for Windows x64
 [00:00:126]   - Host Runtime for Windows x86
 [00:00:126]   - Host Runtime for Windows ARM64
-[00:00:317] Game -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
-[00:00:350] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
-[00:00:350] Project BuildScripts -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
-[00:00:356] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
-[00:00:356] Solution -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
-[00:00:365] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
-[00:00:373] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln.DotSettings.user
-[00:00:550] Game -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
-[00:00:550] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
-[00:00:551] Project BuildScripts -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
-[00:00:551] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
-[00:00:551] Solution -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
-[00:00:551] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
-[00:00:552] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln.DotSettings.user
-[00:00:553] Total time: 00:00:00.5695655
-[00:00:553] End.
+[00:00:310] Game -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
+[00:00:329] Saved file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
+[00:00:330] Project BuildScripts -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
+[00:00:336] Saved file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
+[00:00:336] Solution -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
+[00:00:345] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
+[00:00:351] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln.DotSettings.user
+[00:00:362] Saved file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\Flax.Build.CSharp.SkipBuild.targets
+[00:00:363] Saved file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\Flax.Build.CSharp.targets
+[00:00:537] Game -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
+[00:00:537] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Source\Game.csproj
+[00:00:537] Project BuildScripts -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
+[00:00:538] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\BuildScripts.csproj
+[00:00:538] Solution -> C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
+[00:00:538] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln
+[00:00:540] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\BoilandTrouble.sln.DotSettings.user
+[00:00:540] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\Flax.Build.CSharp.SkipBuild.targets
+[00:00:540] Skipped saving file to C:\Users\Colten\Documents\Flax Projects\BoilandTrouble\Cache\Projects\Flax.Build.CSharp.targets
+[00:00:540] Total time: 00:00:00.5572584
+[00:00:540] End.

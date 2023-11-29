@@ -11,7 +11,7 @@ public class Policy
 {
     public List<Policy> Requirements { get; private set; } = new();
     public Simulation SimRef { get; private set; } = null;
-    public double Cost { get; private set; } = 0;
+    public double Cost { get; set; } = 0;
     public uint[] InfluenceCosts { get; private set; } = new uint[4];
     public bool Purchased { get; private set; } = false;
     public PolicyTree ParentTree { get; set; } = null;

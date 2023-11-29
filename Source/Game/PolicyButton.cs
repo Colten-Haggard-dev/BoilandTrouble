@@ -57,6 +57,7 @@ public class PolicyButton : Button
 
     public void ButtonEnter()
     {
+        HoverLabel.Text = Policy.ToString();
         HoverLabel.Visible = true;
     }
 
